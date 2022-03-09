@@ -1,7 +1,7 @@
 # PatikaDevVeriYapilariVeAlgoritmaProjesi
 Başlangıç Seviyesi .Net Core Patikası - Veri Yapıları ve Algoritmalar
 
-<H3>Insertion Sort Projesi</H1>
+<H3>Insertion Sort Projesi</H3>
 
 
 [22,27,16,2,18,6] -> Insertion Sort
@@ -21,3 +21,34 @@ Average case
 [2,3,7,5,8,9,4,15,6]
 [2,3,4,7,5,8,9,15,6]
 [2,3,4,5,7,8,9,15,6]
+
+<H3>Merge Sort Projesi</H3>
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Başlangıç:[16,21,11,8,12,22]
+
+Adım 1:[16,21,11]-[8,12,22]
+
+Adım 2:[16,21]-[11]-[8,12,22]
+
+Adım 3:[16]-[21]-[11]-[8,12,22]
+
+Adım 4:[16,21]-[11]-[8,12,22]
+
+Adım 5:[11,16,21]-[8,12,22]
+
+Adım 6:[11,16,21]-[8,12]-[22]
+
+Adım 7:[11,16,21]-[8]-[12]-[22]
+
+Adım 8:[11,16,21]-[8,12]-[22]
+
+Adım 9:[11,16,21]-[8,12,22]
+
+Adım 10:[8,11,12,16,21,22]
+
+Son:[8,11,12,16,21,22]
+
+Big-O: O(nlogn)
