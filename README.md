@@ -6,11 +6,11 @@ Başlangıç Seviyesi .Net Core Patikası - Veri Yapıları ve Algoritmalar
 
 [22,27,16,2,18,6] -> Insertion Sort
 1.	Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.	<br>
-[22,27,16,2,18,6]
-[2,22,27,16,18,6]
-[2,6,22,27,16,18]
-[2,6,16,22,27,18]
-[2,6,16,18,22,27]
+[22,27,16,2,18,6] <br>
+[2,22,27,16,18,6] <br>
+[2,6,22,27,16,18] <br>
+[2,6,16,22,27,18] <br>
+[2,6,16,18,22,27] <br>
 2.	Big-O gösterimini yazınız.
 O (n2)
 3.	Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
